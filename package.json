@@ -1,0 +1,28 @@
+{
+  "name": "many-app-database",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "author": "Matthew Chase Whittemore",
+  "license": "MIT",
+  "devDependencies": {
+    "dynalite": "^1.1.0",
+    "dyno": "^1.4.1",
+    "tape": "^4.6.3"
+  },
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "database",
+    "dynamodb",
+    "aws",
+    "amazon",
+    "fast"
+  ],
+  "description": "Hold many apps in one dynamodb table and track app usage too!"
+}
